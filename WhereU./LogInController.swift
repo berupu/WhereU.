@@ -60,7 +60,22 @@ class LogInController: UIViewController {
     }
     
     @objc fileprivate func handleLogin(){
+        print("Log in works")
         
+        guard let email = emailTextField.text else {return}
+        guard let password = passwordTextField.text else {return}
+        
+        Auth.auth().signIn(withEmail: email, password: password) { (user, error) in
+            
+            if error != nil{
+                print("failed to logIn: \(String(describing: error))")
+            }
+            
+            print("successfully logged in")
+            
+            let navController = UINavigationController(rootViewController: HomeController())
+            navController.modalPresentationStyle = .fullScreen
+            self.present(navController, animated: true, completion: nil)
             
         }
 
@@ -70,10 +85,24 @@ class LogInController: UIViewController {
     
     @objc func handleDontHaveAccount(){
        
+        print("sign up")
+        
+        let navController = UINavigationController(rootViewController: SignUpController())
+        navController.modalPresentationStyle = .fullScreen
+        present(navController, animated: true, completion: nil)
+        
     }
     
     @objc func handleTextInputChange() {
-       
+        let isFormValid = emailTextField.text?.count ?? 0 > 0 && passwordTextField.text?.count ?? 0 > 0
+        
+        if isFormValid {
+            loginButton.isEnabled = true
+            loginButton.backgroundColor = UIColor.blue
+        } else {
+            loginButton.isEnabled = false
+            loginButton.backgroundColor = UIColor.gray
+        }
     }
     
     func loginDesign(){
