@@ -20,6 +20,7 @@
 		A55A8550275AB51200619D78 /* SD Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55A854F275AB51200619D78 /* SD Layout.swift */; };
 		A5928C4B276CE5790091BF87 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5928C4A276CE5790091BF87 /* User.swift */; };
 		A5928C4D276CE5B80091BF87 /* UserLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5928C4C276CE5B80091BF87 /* UserLocation.swift */; };
+		A5928C4F276CE5E90091BF87 /* UserAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5928C4E276CE5E90091BF87 /* UserAnnotation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		A55A854F275AB51200619D78 /* SD Layout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SD Layout.swift"; sourceTree = "<group>"; };
 		A5928C4A276CE5790091BF87 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		A5928C4C276CE5B80091BF87 /* UserLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserLocation.swift; sourceTree = "<group>"; };
+		A5928C4E276CE5E90091BF87 /* UserAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserAnnotation.swift; sourceTree = "<group>"; };
 		AA0C61DCD0DA3864ED7A8E41 /* Pods_WhereU_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhereU_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -135,6 +137,7 @@
 			isa = PBXGroup;
 			children = (
 				A5928C4A276CE5790091BF87 /* User.swift */,
+				A5928C4E276CE5E90091BF87 /* UserAnnotation.swift */,
 				A5928C4C276CE5B80091BF87 /* UserLocation.swift */,
 			);
 			path = Model;
@@ -267,6 +270,7 @@
 				A53973A3276BA65300B2D1E2 /* SignUpController.swift in Sources */,
 				A55A853E275AB44000619D78 /* LogInController.swift in Sources */,
 				A53973AE276BABE600B2D1E2 /* HomeController.swift in Sources */,
+				A5928C4F276CE5E90091BF87 /* UserAnnotation.swift in Sources */,
 				A55A853A275AB44000619D78 /* AppDelegate.swift in Sources */,
 				A55A853C275AB44000619D78 /* SceneDelegate.swift in Sources */,
 				A5928C4D276CE5B80091BF87 /* UserLocation.swift in Sources */,
