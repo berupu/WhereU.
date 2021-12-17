@@ -18,6 +18,7 @@
 		A55A8543275AB44100619D78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A55A8542275AB44100619D78 /* Assets.xcassets */; };
 		A55A8546275AB44100619D78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A55A8544275AB44100619D78 /* LaunchScreen.storyboard */; };
 		A55A8550275AB51200619D78 /* SD Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55A854F275AB51200619D78 /* SD Layout.swift */; };
+		A5928C4B276CE5790091BF87 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5928C4A276CE5790091BF87 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		A55A8545275AB44100619D78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A55A8547275AB44100619D78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A55A854F275AB51200619D78 /* SD Layout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SD Layout.swift"; sourceTree = "<group>"; };
+		A5928C4A276CE5790091BF87 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		AA0C61DCD0DA3864ED7A8E41 /* Pods_WhereU_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhereU_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -130,6 +132,7 @@
 		A5928C42276CE0A40091BF87 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				A5928C4A276CE5790091BF87 /* User.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 				A55A853A275AB44000619D78 /* AppDelegate.swift in Sources */,
 				A55A853C275AB44000619D78 /* SceneDelegate.swift in Sources */,
 				A55A8550275AB51200619D78 /* SD Layout.swift in Sources */,
+				A5928C4B276CE5790091BF87 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
