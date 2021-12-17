@@ -113,8 +113,8 @@
 		A55A8538275AB44000619D78 /* WhereU. */ = {
 			isa = PBXGroup;
 			children = (
-				A53973AC276BABDC00B2D1E2 /* Home */,
-				A53973A4276BA74900B2D1E2 /* LogIn */,
+				A5928C49276CE2D50091BF87 /* Controller */,
+				A5928C42276CE0A40091BF87 /* Model */,
 				A53973A5276BA77700B2D1E2 /* Extension */,
 				A55A8542275AB44100619D78 /* Assets.xcassets */,
 				A55A8547275AB44100619D78 /* Info.plist */,
@@ -125,6 +125,22 @@
 				A53973AA276BAB0600B2D1E2 /* GoogleService-Info.plist */,
 			);
 			path = WhereU.;
+			sourceTree = "<group>";
+		};
+		A5928C42276CE0A40091BF87 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A5928C49276CE2D50091BF87 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A53973A4276BA74900B2D1E2 /* LogIn */,
+				A53973AC276BABDC00B2D1E2 /* Home */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
