@@ -19,6 +19,7 @@
 		A55A8546275AB44100619D78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A55A8544275AB44100619D78 /* LaunchScreen.storyboard */; };
 		A55A8550275AB51200619D78 /* SD Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55A854F275AB51200619D78 /* SD Layout.swift */; };
 		A5928C4B276CE5790091BF87 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5928C4A276CE5790091BF87 /* User.swift */; };
+		A5928C4D276CE5B80091BF87 /* UserLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5928C4C276CE5B80091BF87 /* UserLocation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		A55A8547275AB44100619D78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A55A854F275AB51200619D78 /* SD Layout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SD Layout.swift"; sourceTree = "<group>"; };
 		A5928C4A276CE5790091BF87 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		A5928C4C276CE5B80091BF87 /* UserLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserLocation.swift; sourceTree = "<group>"; };
 		AA0C61DCD0DA3864ED7A8E41 /* Pods_WhereU_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhereU_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -133,6 +135,7 @@
 			isa = PBXGroup;
 			children = (
 				A5928C4A276CE5790091BF87 /* User.swift */,
+				A5928C4C276CE5B80091BF87 /* UserLocation.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 				A53973AE276BABE600B2D1E2 /* HomeController.swift in Sources */,
 				A55A853A275AB44000619D78 /* AppDelegate.swift in Sources */,
 				A55A853C275AB44000619D78 /* SceneDelegate.swift in Sources */,
+				A5928C4D276CE5B80091BF87 /* UserLocation.swift in Sources */,
 				A55A8550275AB51200619D78 /* SD Layout.swift in Sources */,
 				A5928C4B276CE5790091BF87 /* User.swift in Sources */,
 			);
