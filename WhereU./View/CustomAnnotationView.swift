@@ -1,5 +1,5 @@
 //
-//  CustomAnnotation.swift
+//  CustomAnnotationView.swift
 //  WhereU.
 //
 //  Created by be RUPU on 17/12/21.
